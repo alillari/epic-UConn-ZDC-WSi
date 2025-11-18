@@ -28,7 +28,7 @@
     <constant name="ZDC_pixel_thickness"         value="300.0 * um"/>
     <constant name="ZDC_glue_thickness"          value="0.11 * mm"/>
     <constant name="ZDC_PCB_thickness"           value="1.6 * mm"/>
-    <constant name="ZDC_Si_Air_thickness"        value=".5 * mm"/>
+    <constant name="ZDC_Si_Air_thickness"        value="1 * mm"/>
     <constant name="ZDC_Tungsten_thickness"      value="3.5 * mm"/>
 
     //Modify so there are no HG layers
@@ -39,7 +39,7 @@
     <constant name="ZDC_WSi_pixel_layerthickness"
               value="ZDC_Tungsten_thickness + ZDC_glue_thickness + ZDC_pixel_thickness + ZDC_glue_thickness + ZDC_PCB_thickness + ZDC_Si_Air_thickness"/>
     <constant name="ZDC_WSi_z"
-              value="ZDC_WSi_pix_nlayers * ZDC_WSi_pixel_layerthickness - ZDC_Tungsten_thickness - ZDC_glue_thickness + ZDC_WSi_pad_nlayers * ZDC_WSi_pad_layerthickness"/>
+              value="ZDC_WSi_pix_nlayers * ZDC_WSi_pixel_layerthickness + ZDC_WSi_pad_nlayers * ZDC_WSi_pad_layerthickness"/>
   </define>
 
   <detectors>
