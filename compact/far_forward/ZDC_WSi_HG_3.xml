@@ -14,7 +14,7 @@
     <constant name="ZDC_rotateY_angle" value="ionCrossingAngle"/>
     <constant name="ZDC_rotateZ_angle" value="0.0 * rad"/>
 
-    <constant name="ZDC_WSi_r_pos"               value="35.82*m"/>
+    <constant name="ZDC_WSi_r_pos"               value="35.8564*m"/>
     <constant name="ZDC_WSi_z_pos"               value="ZDC_WSi_r_pos * cos(ionCrossingAngle)"/>
     <constant name="ZDC_WSi_x_pos"               value="ZDC_WSi_r_pos * sin(ionCrossingAngle)"/>
     <constant name="ZDC_WSi_y_pos"               value="0 * cm" />
