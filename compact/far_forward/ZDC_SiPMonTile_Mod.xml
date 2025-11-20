@@ -49,7 +49,7 @@
     <constant name="HcalFarForwardZDC_SiPMonTile_rotateZ_angle" value="0*deg"/>
 
     //Modified to accomidate WSi addition. WSi current config is approximately 20 * 6.14 mm 
-    <constant name="HcalFarForwardZDC_SiPMonTile_r_pos_front_face" value="35.82*m + HcalFarForwardZDC_SiPMonTile_removed * HcalFarForwardZDC_SiPMonTile_SingleLayerThickness + .065*m"/>
+    <constant name="HcalFarForwardZDC_SiPMonTile_r_pos_front_face" value="35.94*m"/>
     <constant name="HcalFarForwardZDC_SiPMonTile_r_pos" value="HcalFarForwardZDC_SiPMonTile_r_pos_front_face + HcalFarForwardZDC_SiPMonTile_length/2.0"/>
     <constant name="HcalFarForwardZDC_SiPMonTile_x_pos" value="sin(HcalFarForwardZDC_SiPMonTile_rotateY_angle)*HcalFarForwardZDC_SiPMonTile_r_pos"/>
     <constant name="HcalFarForwardZDC_SiPMonTile_y_pos" value="0*m" />
